@@ -98,10 +98,10 @@ const solution = [
     "prime()",
     "factCall()"
 ]
-document.write("<table border='1' width='100%'><thead><tr><th>Sr no.</th><th>Problem</th><th>Solution</th></tr></thead><tbody>");
+document.write("<table border='1' width='100%'><thead><tr><td colspan='3'><h1 align='center'>Coding Worriers</h1></td></tr><tr><th>Sr no.</th><th>Problem</th><th>Solution</th></tr></thead><tbody>");
 let j=0;
 for(let i=0; i<problem.length; i++) {
-    document.write("<tr><td>" + (i+1) + "</td><td>" + problem[i] + "</td><td>");
+    document.write("<tr><td class='srno'>" + (i+1) + "</td><td>" + problem[i] + "</td><td class='soln'>");
     if(solution[i] == "displayNameDoWhile()"){
     document.write("<button onclick='displayNameDoWhile()'do-while>do-while</button><button onclick='displayNameWhile()'>do-while</button></td></tr>");
     j+=2;

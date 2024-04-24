@@ -69,7 +69,7 @@ function fact(n){
     return n * fact(n-1);
 }
 function factCall(){
-    let num = window.prompt("Enter number: ");
+    let num = window.prompt("Enter a number to find factorial: ");
     if(num>0)
         document.write("factorial of " + num + " = " + fact(num));
     else document.write("Please enter a positive number");

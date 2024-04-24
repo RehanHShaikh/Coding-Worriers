@@ -103,7 +103,7 @@ let j=0;
 for(let i=0; i<problem.length; i++) {
     document.write("<tr><td class='srno'>" + (i+1) + "</td><td>" + problem[i] + "</td><td class='soln'>");
     if(solution[i] == "displayNameDoWhile()"){
-    document.write("<button onclick='displayNameDoWhile()'do-while>do-while</button><button onclick='displayNameWhile()'>do-while</button></td></tr>");
+    document.write("<button onclick='displayNameDoWhile()'do-while>do-while</button><button onclick='displayNameWhile()'>while</button></td></tr>");
     j+=2;
     }
     else{

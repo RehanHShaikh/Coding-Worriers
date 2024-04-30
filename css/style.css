@@ -1,0 +1,21 @@
+.srno{
+    text-align: center;
+}
+.soln{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+
+.button{
+    width: 100%;   
+}
+
+.button1{
+    width: 50%;
+}
+
+td{
+    vertical-align: middle;
+}

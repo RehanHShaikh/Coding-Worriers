@@ -98,16 +98,16 @@ const solution = [
     "prime()",
     "factCall()"
 ]
-document.write("<table border='1' width='100%'><thead><tr><td colspan='3'><h1 align='center'>Coding Worriers</h1></td></tr><tr><th>Sr no.</th><th>Problem</th><th>Solution</th></tr></thead><tbody>");
+document.write("<table border='1' width='100%' class='table table-striped'><thead><tr><td colspan='3'><h1 align='center'>Coding Worriers</h1></td></tr><tr><th>Sr no.</th><th>Problem</th><th>Solution</th></tr></thead><tbody>");
 let j=0;
 for(let i=0; i<problem.length; i++) {
     document.write("<tr><td class='srno'>" + (i+1) + "</td><td>" + problem[i] + "</td><td class='soln'>");
     if(solution[i] == "displayNameDoWhile()"){
-    document.write("<button onclick='displayNameDoWhile()'do-while>do-while</button><button onclick='displayNameWhile()'>while</button></td></tr>");
+    document.write("<button class='button1 btn btn-success' onclick='displayNameDoWhile()'>do-while</button><button class='button1 btn btn-success' onclick='displayNameWhile()'>while</button></td></tr>");
     j+=2;
     }
     else{
-        document.write("<button onclick='"+ solution[j++] +"'>Solution:"+ (i+1) + "</td></tr>");
+        document.write("<button class='button btn btn-success' onclick='"+ solution[j++] +"'>Solution:"+ (i+1) + "</td></tr>");
     }
 }
 document.write("</tbody></table>");
